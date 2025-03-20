@@ -1,0 +1,63 @@
+@keyframes regShadow {
+    0% {
+        opacity: 1;
+        box-shadow: -5px 5px 16px $colorTwo;
+    }
+    50% {
+        opacity: 1;
+        box-shadow: -0 0 16px $colorTwo;
+    }
+    100% {
+        opacity: 1;
+        box-shadow: -5px 5px 16px $colorTwo;
+    }
+}
+
+@keyframes arrowMove {
+    0% {
+        opacity: 1;
+        transform: translateX(-5px);
+        -webkit-transform: translateX(-5px);
+        -moz-transform: translateX(-5px);
+        -ms-transform: translateX(-5px);
+        -o-transform: translateX(-5px);
+}
+    50% {
+        opacity: 1;
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        -o-transform: translateX(5px);
+}
+    100% {
+        opacity: 1;
+        transform: translateX(-5px);
+        -webkit-transform: translateX(-5px);
+        -moz-transform: translateX(-5px);
+        -ms-transform: translateX(-5px);
+        -o-transform: translateX(-5px);
+}
+}
+
+@keyframes lineMove {
+    to {
+        width: calc(100% - 40px);
+    }
+}
+
+@keyframes blur {
+    to {
+        backdrop-filter: blur(25px);
+    }
+}
+
+@keyframes elementMove {
+    to {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+}

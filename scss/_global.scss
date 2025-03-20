@@ -1,0 +1,16 @@
+.main {
+    max-width: 1920px;
+    width: calc(100vw - 17px);
+    margin: 0 auto;
+    background-color: $mainBg;
+    // overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: $mainBg;
+}
