@@ -31,9 +31,9 @@
         -ms-border-radius: 16px;
         -o-border-radius: 16px;
 
-        &-active {
-            background-color: $menuBtnBgActive;
-        }
+        // &:hover {
+        //     background-color: $menuBtnBgActive;
+        // }
 }
 
     &__item>a {
@@ -137,4 +137,11 @@
             -o-border-radius: 8px;
         }
     }
+}
+
+
+@media (hover: hover) {
+            .menu__item:hover {
+            background-color: $menuBtnBgActive;
+        }
 }

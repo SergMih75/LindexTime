@@ -1,10 +1,26 @@
 @media (max-width: 850px) {
 	#home {
-		aspect-ratio: 361/295;
-		background-image: url(../img/titleSectionImgMobile.png);
-		background-position: center center;
-        margin-bottom: 24px;
+		flex-direction: column;
+		// aspect-ratio: 361/295;
+		// background-image: url(../img/titleSectionImgMobile.png);
+		// background-position: center center;
+        // margin-bottom: 24px;
+		background-image: none;
 	}
+
+	
+.home__bg {
+	display: block;
+	background-image: url(../img/titleSectionImgMobile.png);
+	aspect-ratio: 361/295;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:16px;
+    -webkit-border-radius:16px;
+    -moz-border-radius:16px;
+    -ms-border-radius:16px;
+    -o-border-radius:16px;
+}
 
 	.title {
 		position: relative;
@@ -74,8 +90,8 @@
 			//-o-border-radius: 16px;
 			opacity: 0;
 			//box-shadow: -5px 5px 16px $colorTwo;
-			animation: regShadow 1500ms 1000ms infinite;
-			-webkit-animation: regShadow 1500ms 1000ms infinite;
+			animation: regShadowMobile 1500ms 1000ms forwards;
+			-webkit-animation: regShadowMobile 1500ms 1000ms forwards;
 }
 
 		&__reg::before {

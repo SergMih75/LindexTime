@@ -13,6 +13,13 @@
     }
 }
 
+@keyframes regShadowMobile {
+    100% {
+        opacity: 1;
+        box-shadow: -5px 5px 16px $colorTwo;
+    }
+}
+
 @keyframes arrowMove {
     0% {
         opacity: 1;

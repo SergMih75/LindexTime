@@ -1,0 +1,62 @@
+@media (max-width: 850px) {
+	#technology {
+		padding-top: 41px;
+		background-image: none;
+		// background-repeat: no-repeat;
+		// background-size: contain;
+		// background-position: center 300px;
+		// color: $whitColor;
+	}
+
+	.technology {
+		width: 98%;
+		margin: 0 auto;
+		// color: $whitColor;
+
+		&__title {
+            display: none;
+			// font-size: 54px;
+			// font-weight: 700;
+			// color: $whitColor;
+		}
+
+		&__text {
+            display: none;
+			// font-size: 28px;
+			// font-weight: 400;
+			// margin-bottom: 117px;
+		}
+	}
+
+	.cards {
+		width: 98%;
+		// margin: 0 auto;
+	}
+
+	.card {
+		display: flex;
+		gap: 32px;
+		align-items: center;
+        flex-direction: column-reverse;
+		margin-bottom: 50px;
+
+		&__title {
+			// margin-top: 0;
+			margin-bottom: 28px;
+			font-size: 36px;
+			// font-weight: 700;
+		}
+
+		&__text__text {
+			// margin: 0;
+			font-size: 22px;
+			// font-weight: 400;
+			// line-height: 25px;
+		}
+	}
+
+	.card:nth-child(2) {
+        // display: none;
+		flex-direction: column-reverse;
+	}
+}

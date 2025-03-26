@@ -32,7 +32,7 @@
             </a>
             <nav class="nav">
                 <ul class="menu">
-                    <li class="menu__item  menu__item-active"><a href="#">Спикеры</a></li>
+                    <li class="menu__item"><a href="#speaker">Спикеры</a></li>
                     <li class="menu__item"><a href="#">Программа</a></li>
                     <li class="menu__item"><a href="#">Место и время</a></li>
 
@@ -42,6 +42,7 @@
         </header>
 
         <section id="home">
+            <div class="home__bg"></div>
             <div class="title">
                 <h1 class="title__title">EUROLAN <span>В ФОКУСЕ</span></h1>
                 <p class="title__text">Приглашаем вас погрузиться в мир IT- технологий и узнать, как Eurolan присутствует в различных аспектах современной жизни, обеспечивая стабильность и эффективность в разных сферах</p>
@@ -81,7 +82,108 @@
                 </div>
             </div>
         </section>
+
+        <section id="technology">
+            <div class="technology">
+                <h2 class="technology__title">Технологии Eurolan 360<sup>0</sup></h2>
+                <p class="technology__text">Приглашаем вас погрузиться в мир IT- технологий и узнать, как Eurolan присутствует в различных аспектах современной жизни, обеспечивая стабильность и эффективность в разных сферах.</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="./img/one.png" alt="">
+                    </div>
+                    <div class="card__text">
+                        <h3 class="card__title">EUROLAN 360<sup>0</sup> — решение для любой сферы</h3>
+                        <div class="card__line"></div>
+                        <p class="card__text__text">От образования до промышленности, от транспорта до инноваций — вы увидите, как оборудование Eurolan влияет на нашу жизнь.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="./img/two.png" alt="">
+                    </div>
+                    <div class="card__text">
+                        <h3 class="card__title">«Вперед в будущее!» с Eurolan CORE</h3>
+                        <div class="card__line"></div>
+                        <p class="card__text__text">EUROLAN DAY 2024 откроет перед нами новые возможности в области построения ЦОД. 
+                            <br>«Космические технологии» для самой передовой инфраструктуры. 
+                            <br>Расскажем про: 
+                            <ul>
+                                <li>Eurolan CORE 2.0</li>
+                                <li>Оптическая СКС LC vs MTP</li>
+                                <li>Eurolan DCIM и система активного мониторинга оптической СКС.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="./img/three.png" alt="">
+                    </div>
+                    <div class="card__text">
+                        <h3 class="card__title">Технологические тренды и их влияние на рынок СКС</h3>
+                        <div class="card__line"></div>
+                        <p class="card__text__text">В настоящее время появляются различные технологии, способствующие повышению эффективности бизнеса, снижению затрат на эксплуатацию инженерных систем зданий и производственных площадок, увеличению скорости обработки и передачи данных. <br> Как они отразятся на компонентной базе СКС, какие продукты и решения могут быть наиболее подходящими для тех или иных инноваций? EUROLAN DAY 2024 даст ответы на эти вопросы.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="speaker">
+            <div class="speaker">
+                <h2>Спикеры</h2>
+                <div class="speaker__block">
+                    <div class="speaker__item">
+                        <div class="speaker__img">
+                            <img src="./img/speaker_01.png" alt="Спикер">
+                        </div>
+                        <div class="speaker__text">
+                            <p class="speaker__number">01</p>
+                            <h3 class="speaker__name">Куприянов Максим Сергеевич</h3>
+                            <p class="speaker__post">Генеральный директор Eurolan</p>
+                        </div>
+                    </div>
+
+                    <div class="speaker__item">
+                        <div class="speaker__img">
+                            <img src="./img/speaker_02.png" alt="Спикер">
+                        </div>
+                        <div class="speaker__text">
+                            <p class="speaker__number">02</p>
+                            <h3 class="speaker__name">Шалдинов Максим Григорьевич</h3>
+                            <p class="speaker__post">Коммерческий директор Eurolan</p>
+                        </div>
+                    </div>
+
+                    <div class="speaker__item">
+                        <div class="speaker__img">
+                            <img src="./img/speaker_03.png" alt="Спикер">
+                        </div>
+                        <div class="speaker__text">
+                            <p class="speaker__number">03</p>
+                            <h3 class="speaker__name">Глазина Ольга Юрьевна</h3>
+                            <p class="speaker__post">Заместитель технического директора Eurolan</p>
+                        </div>
+                    </div>
+
+                    <div class="speaker__item">
+                        <div class="speaker__img">
+                            <img src="./img/speaker_04.png" alt="Спикер">
+                        </div>
+                        <div class="speaker__text">
+                            <p class="speaker__number">04</p>
+                            <h3 class="speaker__name">Шалдинов Максим Григорьевич</h3>
+                            <p class="speaker__post">Инженер по тестированию СКС Lindex</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <script type="module" src="./js/menuControl.js"></script>
+    <script src="./js/menuControl.js"></script>
+    <script src="./js/сardAnimation.js"></script>
 </body>
 </html>
