@@ -33,7 +33,7 @@
             <nav class="nav">
                 <ul class="menu">
                     <li class="menu__item"><a href="#speaker">Спикеры</a></li>
-                    <li class="menu__item"><a href="#">Программа</a></li>
+                    <li class="menu__item"><a href="#programs">Программа</a></li>
                     <li class="menu__item"><a href="#">Место и время</a></li>
 
                 </ul>
@@ -89,7 +89,7 @@
                 <p class="technology__text">Приглашаем вас погрузиться в мир IT- технологий и узнать, как Eurolan присутствует в различных аспектах современной жизни, обеспечивая стабильность и эффективность в разных сферах.</p>
             </div>
             <div class="cards">
-                <div class="card">
+                <div class="card" data-move="left">
                     <div class="card__img">
                         <img src="./img/one.png" alt="">
                     </div>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-move="right">
                     <div class="card__img">
                         <img src="./img/two.png" alt="">
                     </div>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-move="left">
                     <div class="card__img">
                         <img src="./img/three.png" alt="">
                     </div>
@@ -136,7 +136,7 @@
             <div class="speaker">
                 <h2>Спикеры</h2>
                 <div class="speaker__block">
-                    <div class="speaker__item">
+                    <div class="speaker__item" data-move="left">
                         <div class="speaker__img">
                             <img src="./img/speaker_01.png" alt="Спикер">
                         </div>
@@ -147,7 +147,7 @@
                         </div>
                     </div>
 
-                    <div class="speaker__item">
+                    <div class="speaker__item" data-move="right">
                         <div class="speaker__img">
                             <img src="./img/speaker_02.png" alt="Спикер">
                         </div>
@@ -158,7 +158,7 @@
                         </div>
                     </div>
 
-                    <div class="speaker__item">
+                    <div class="speaker__item" data-move="left">
                         <div class="speaker__img">
                             <img src="./img/speaker_03.png" alt="Спикер">
                         </div>
@@ -169,7 +169,7 @@
                         </div>
                     </div>
 
-                    <div class="speaker__item">
+                    <div class="speaker__item" data-move="right">
                         <div class="speaker__img">
                             <img src="./img/speaker_04.png" alt="Спикер">
                         </div>
@@ -177,6 +177,51 @@
                             <p class="speaker__number">04</p>
                             <h3 class="speaker__name">Шалдинов Максим Григорьевич</h3>
                             <p class="speaker__post">Инженер по тестированию СКС Lindex</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="programs">
+            <div class="programs">
+                <h2 class="programs__title">Программа</h2>
+                <div class="program">
+                    <div class="program__item" data-move="left">
+                        <p class="program__time">10:00 - 11:00</p>
+                        <div class="program__block">
+                            <h3 class="program__title">Eurolan 360<sup>0</sup></h3>
+                            <h4 class="program__subtitle">Про что?</h4>
+                            <p class="program__text">Приветственное слово генерального директора.<br>Развитие бренда в рамках общей концепции «присутствие на 360<sup>0</sup> »</p>
+                            <h4 class="program__subtitle">Спикер</h4>
+                            <p class="program__text">Владимир Романов, генеральный директор Eurolan</p>
+                        </div>
+                    </div>
+
+                    <div class="program__item" data-move="right">
+                        <p class="program__time">11:00 - 13:45</p>
+                        <div class="program__block">
+                            <h3 class="program__title">ЦОД. Космические технологии</h3>
+                            <h4 class="program__subtitle">Про что?</h4>
+                            <ul class="program__list">
+                                <li>Eurolan CORE 2.0</li>
+                                <li>Оптическая СКС LC vs MTP</li>
+                                <li>Eurolan DCIM и система активного мониторинга оптической СКС</li>
+                            </ul>
+                            <h4 class="program__subtitle">Спикер</h4>
+                            <p class="program__text">Валерий Никитин, директор по развитию Eurolan</p>
+                        </div>
+                    </div>
+
+                <div class="program">
+                    <div class="program__item" data-move="left">
+                        <p class="program__time">14:00 - 17:00</p>
+                        <div class="program__block">
+                            <h3 class="program__title">Технологические тренды и их влияние на рынок СКС</h3>
+                            <!-- <h4 class="program__subtitle">Про что?</h4>
+                            <p class="program__text">Приветственное слово генерального директора.<br>Развитие бренда в рамках общей концепции «присутствие на 360<sup>0</sup> »</p> -->
+                            <h4 class="program__subtitle">Спикер</h4>
+                            <p class="program__text">Виталий Алипов, заместитель технического директора Eurolan</p>
                         </div>
                     </div>
                 </div>

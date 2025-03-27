@@ -1,0 +1,78 @@
+#programs {
+    width: 100%;
+    background-color: $programBg;
+}
+
+.programs {
+    width: 82%;
+    margin: 0 auto;
+    padding-top: 71px;
+    padding-bottom: 88px;
+
+    &__title {
+        font-size: 54px;
+        font-weight: 700;
+        color: $mainBg;
+        margin-bottom: 50px;
+    }
+}
+
+.program {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &__time {
+        font-size: 32px;
+        font-weight: 500;
+        color: $mainBg;
+    }
+
+    &__block {
+        max-width: 995px;
+        width: 50vw;
+        padding: 45px 51px 6px;
+        background: linear-gradient(6deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.2) 100%);
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+
+    &__title {
+        font-size: 32px;
+        font-weight: 500;
+        color: $colorTwo;
+        margin-bottom: 32px;
+    }
+
+    &__subtitle {
+        font-size: 22px;
+        font-weight: 600;
+        color: $mainBg;
+        margin-bottom: 11px;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: 400;
+        color: $mainBg;
+        margin-bottom: 21px;
+    }
+
+    &__list {
+    font-size: 18px;
+    font-weight: 400;
+    color: $mainBg;
+    margin-bottom: 21px;
+    }
+}

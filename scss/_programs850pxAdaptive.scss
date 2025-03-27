@@ -1,0 +1,100 @@
+@media (max-width: 850px) {
+	// #programs {
+	//     width: 100%;
+	//     background-color: $programBg;
+	// }
+
+	.programs {
+		width: 96%;
+		// margin: 0 auto;
+		padding-top: 43px;
+		padding-bottom: 41px;
+
+		&__title {
+			font-size: 36px;
+			// font-weight: 700;
+			// color: $mainBg;
+			margin-bottom: 20px;
+		}
+	}
+
+	.program {
+		// width: 100%;
+		// display: flex;
+		// flex-direction: column;
+		// gap: 16px;
+
+		&__item {
+			// display: flex;
+            flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			gap: 0;
+		}
+
+		&__time {
+            width: 83vw;
+            padding: 15px 15px 15px;
+            font-size: 24px;
+            font-weight: 500;
+            color: $colorTwo;
+            background: rgba(255, 255, 255, 0.5);
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            // border-radius: ;
+            // -webkit-border-radius:;
+            // -moz-border-radius:;
+            // -ms-border-radius:;
+            // -o-border-radius:;
+            border: 2px solid transparent;
+        border-image: linear-gradient(90deg,$programBg,10%, $colorTwo,10%, $colorTwo,50%, $programBg);
+        border-image-slice: 1;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+}
+
+		&__block {
+            max-width: 995px;
+            margin-top:-2px ;
+            width: 83vw;
+            padding: 24px 15px 6px;
+            background: rgba(255, 255, 255, 0.5);
+            // border-radius: 8px;
+            // -webkit-border-radius:;
+            // -moz-border-radius:;
+            // -ms-border-radius:;
+            // -o-border-radius:;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+}
+
+		&__title {
+			font-size: 26px;
+			font-weight: 600;
+			color: $mainBg;
+			margin-bottom: 2px;
+		}
+
+		&__subtitle {
+			// font-size: 22px;
+			// font-weight: 500;
+			// color: $mainBg;
+			margin-bottom: 2px;
+		}
+
+		&__text {
+			font-size: 16px;
+			// font-weight: 400;
+			// color: $mainBg;
+			margin-bottom: 10px;
+		}
+
+		&__list {
+			font-size: 16px;
+			// font-weight: 400;
+			// color: $mainBg;
+			margin-bottom: 10px;
+		}
+	}
+}
