@@ -9,7 +9,7 @@
 </head>
 <body>
     <main class="main">
-        <header class="header">
+        <header id="header" class="header">
             <a href="#">
                 <svg width="229" height="46" viewBox="0 0 229 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M90.4979 44.7474H78.5024V31.4739H89.5273C92.5362 31.4739 94.4937 33.0916 94.4937 35.6476C94.4989 36.3119 94.3493 36.9682 94.0569 37.5647C94.5032 37.9315 94.8598 38.3955 95.0995 38.9212C95.3392 39.4469 95.4557 40.0204 95.4401 40.5979C95.4401 42.6039 94.154 44.7474 90.4979 44.7474ZM81.9239 41.334H90.4979C90.9671 41.3766 91.4386 41.2839 91.8568 41.067C91.9539 41.0104 92.0509 40.9538 92.0509 40.5979C92.0509 40.3714 92.0509 39.8376 90.4979 39.8376H81.9401L81.9239 41.334ZM81.9239 36.4242H89.5515C90.0224 36.4641 90.4947 36.3657 90.9104 36.1411C90.9913 36.0844 91.1045 36.0035 91.1045 35.6476C91.1045 35.4212 91.1045 34.8873 89.5515 34.8873H81.9239V36.4242Z" fill="#5CA3FF"/>
@@ -34,7 +34,7 @@
                 <ul class="menu">
                     <li class="menu__item"><a href="#speaker">Спикеры</a></li>
                     <li class="menu__item"><a href="#programs">Программа</a></li>
-                    <li class="menu__item"><a href="#">Место и время</a></li>
+                    <li class="menu__item"><a href="#plase">Место и время</a></li>
 
                 </ul>
                 <a href="#" class="burger"></a>
@@ -213,13 +213,10 @@
                         </div>
                     </div>
 
-                <div class="program">
                     <div class="program__item" data-move="left">
                         <p class="program__time">14:00 - 17:00</p>
                         <div class="program__block">
                             <h3 class="program__title">Технологические тренды и их влияние на рынок СКС</h3>
-                            <!-- <h4 class="program__subtitle">Про что?</h4>
-                            <p class="program__text">Приветственное слово генерального директора.<br>Развитие бренда в рамках общей концепции «присутствие на 360<sup>0</sup> »</p> -->
                             <h4 class="program__subtitle">Спикер</h4>
                             <p class="program__text">Виталий Алипов, заместитель технического директора Eurolan</p>
                         </div>
@@ -227,6 +224,21 @@
                 </div>
             </div>
         </section>
+
+        <section class="place">
+            <div class="place__data">
+
+            </div>
+            <div class="palce__map"></div>
+        </section>
+
+        <footer class="footer">
+            <a class="footer__logo" href="#header">
+                <img src="./img/footer_logo.png" alt="logo">
+            </a>
+            <a class="confidential" href="#">Политика обработки персональных данных</a>
+            <p class="copyright">© 2025 АО «Линдекс». Все права защищены.</p>
+        </footer>
     </main>
     <script src="./js/menuControl.js"></script>
     <script src="./js/сardAnimation.js"></script>

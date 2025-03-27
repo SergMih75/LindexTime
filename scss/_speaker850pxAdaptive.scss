@@ -1,10 +1,11 @@
 @media (max-width: 850px) {
-// #speaker {
-//     width: 100%;
-// }
+#speaker {
+    width: 100%;
+    background: linear-gradient( $mainBg, 90%, $programBg);
+}
 
 .speaker {
-    width: 99%;
+    width: 97.5%;
     margin: 0 auto;
     // background-color: $speakerBg;
     padding: 43px 0;
