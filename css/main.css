@@ -69,7 +69,6 @@
   margin: 0 auto;
   background-color: #1c242c;
   overflow: hidden;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -88,6 +87,10 @@ p,
 ul,
 li {
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .header {
