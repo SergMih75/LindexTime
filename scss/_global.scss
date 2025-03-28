@@ -1,19 +1,24 @@
 .main {
-    max-width: 1920px;
-    width: calc(100vw - 17px);
-    margin: 0 auto;
-    background-color: $mainBg;
-    overflow: hidden;
-    scroll-behavior: smooth;
+	max-width: 1920px;
+	width: calc(100vw - 17px);
+	margin: 0 auto;
+	background-color: $mainBg;
+	overflow: hidden;
+	scroll-behavior: smooth;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 body {
-    background-color: $mainBg;
+	background-color: $mainBg;
 }
-h2, h3, h4, p, ul, li {
-    margin: 0;
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+	margin: 0;
 }

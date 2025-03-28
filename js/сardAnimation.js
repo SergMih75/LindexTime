@@ -4,7 +4,7 @@ const programCard = document.querySelectorAll('.program__item')
 
 document.addEventListener('scroll', () => {
 	techCardMove(techCard)
-    techCardMove(speakerCard)
+	techCardMove(speakerCard)
 	techCardMove(programCard)
 	// console.log(window.innerHeight);
 	// console.log(item);
