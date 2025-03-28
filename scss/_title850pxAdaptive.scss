@@ -92,7 +92,20 @@
 			//box-shadow: -5px 5px 16px $colorTwo;
 			animation: regShadowMobile 1500ms 1000ms forwards;
 			-webkit-animation: regShadowMobile 1500ms 1000ms forwards;
+
+			&-done {
+			margin-left: -17px;
+			margin-bottom: 0;
+			border-radius:0;
+			-webkit-border-radius:0 ;
+			-moz-border-radius:0 ;
+			-ms-border-radius:0 ;
+			-o-border-radius:0 ;
+			opacity: 1;
+			animation: none;
+			-webkit-animation: none;
 }
+		}
 
 		&__reg::before {
 			content: url('../img/arrowMobile.png');

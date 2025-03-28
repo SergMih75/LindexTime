@@ -92,6 +92,19 @@
         //box-shadow: -5px 5px 16px $colorTwo;
         animation: regShadow 1500ms 5000ms infinite;
         -webkit-animation: regShadow 1500ms 5000ms infinite;
+
+        &-done {
+            margin-left: 20px;
+            opacity: 1;
+            animation: none;
+            -webkit-animation: none;
+        }
+
+        // &-done::before {
+        //     opacity: 1;
+        //     animation: none;
+        //     -webkit-animation: none;
+        // }
 }
 
     &__reg::before {
@@ -101,6 +114,13 @@
         opacity: 0;
         animation: arrowMove 1800ms 5500ms infinite;
         -webkit-animation: arrowMove 1800ms 5500ms infinite;
+
+        // &-done::before {
+        //     display: none;
+            // opacity: 1;
+            // animation: none;
+            // -webkit-animation: none;
+// }
 }
 
     &__line {
