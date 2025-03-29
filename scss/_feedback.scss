@@ -1,0 +1,95 @@
+.feedback {
+	position: relative;
+	// display: flex;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	max-width: 75%;
+	padding: 60px 0 120px 0;
+	margin: 0 auto;
+	background-color: $whitColor;
+	border: none;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+	// scale: 0;
+
+	&__title {
+		font-size: 42px;
+		font-weight: 700;
+		color: $mainBg;
+	}
+
+	&__text {
+		font-size: 18px;
+		font-weight: 400;
+		color: $colorTwo;
+		margin: 10px 0 46px;
+	}
+
+	&__input,
+	&__label {
+		width: 50%;
+		padding: 10px;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		font-size: 16px;
+		font-weight: 400;
+		color: $mainBg;
+		margin-bottom: 28px;
+		background-color: $whitColor;
+
+		&-checkbox {
+			width: 20px;
+			margin: 0;
+		}
+	}
+
+	&__input:focus {
+		outline-style: none;
+	}
+
+	&__close {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		cursor: pointer;
+		font-size: 20px;
+		font-weight: 500;
+		color: $colorTwo;
+		text-transform: uppercase;
+	}
+
+	&__btn {
+		width: 305px;
+		padding: 13px 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: none;
+		cursor: pointer;
+		font-size: 24px;
+		font-weight: 600;
+		color: $whitColor;
+		background-color: $feedbackBtn;
+		border-radius: 16px;
+		-webkit-border-radius: 16px;
+		-moz-border-radius: 16px;
+		-ms-border-radius: 16px;
+		-o-border-radius: 16px;
+
+		box-shadow: -9px 10px 20px $feedbackBtn;
+	}
+
+	&__confidentiality {
+		font-weight: 600;
+		text-decoration: underline;
+	}
+}
+
+.feedback__close > [type='checkbox'] {
+	display: none;
+}
