@@ -25,3 +25,8 @@ li {
 html {
 	scroll-behavior: smooth;
 }
+
+.count-remove::before {
+	content: '\9899';
+	margin-right: 3px;
+}

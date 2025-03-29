@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @keyframes regShadow {
   0% {
     opacity: 1;
@@ -91,6 +92,11 @@ li {
 
 html {
   scroll-behavior: smooth;
+}
+
+.count-remove::before {
+  content: "颙";
+  margin-right: 3px;
 }
 
 .header {
