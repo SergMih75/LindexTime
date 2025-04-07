@@ -32,6 +32,7 @@
 		font-weight: 500;
 		line-height: 25px;
 		color: #000;
+		position: relative;
 	}
 
 	&__close {
@@ -39,6 +40,7 @@
 		font-size: 26px;
 		font-weight: 600;
 		color: $colorTwo;
+		cursor: pointer;
 	}
 
 	&__close > [type='checkbox'] {
@@ -58,4 +60,12 @@ li {
 li:before {
 	content: counters(item, '.') '. ';
 	counter-increment: item;
+}
+
+
+[attr="start"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
 }

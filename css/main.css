@@ -1208,12 +1208,14 @@ html {
   font-weight: 500;
   line-height: 25px;
   color: #000;
+  position: relative;
 }
 .confidentiality__close {
   text-align: center;
   font-size: 26px;
   font-weight: 600;
   color: #f02;
+  cursor: pointer;
 }
 .confidentiality__close > [type=checkbox] {
   display: none;
@@ -1230,6 +1232,13 @@ li {
 li:before {
   content: counters(item, ".") ". ";
   counter-increment: item;
+}
+
+[attr=start] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 @media (max-width: 850px) {
